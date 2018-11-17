@@ -1,0 +1,187 @@
+/* -----------------------Top Header--------------------- */
+
+* {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.huddle {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.button {
+  background: white;
+  border: solid 1px #ff14c1;
+  border-radius: 25px;
+  color: #ff14c1;
+  padding: 15px 25px;
+  margin: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+.button:hover {
+  border-color: #ff14c1;
+  background: #ff14c1;
+  background: linear-gradient(to top, #f3b5e3, #ff14c1);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
+.bigbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.button2 {
+  display: inline-block;
+  background: #ff14c1;
+  border: solid 1px #ff14c1;
+  border-radius: 30px;
+  color: white;
+  padding: 20px 40px;
+  margin: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.button2:hover {
+  border-color: #ff14c1;
+  background: #ff14c1;
+  background: linear-gradient(to top, #f3b5e3, #ff14c1);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
+/*------------Images Section---------------------------- */
+
+.mobile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.stat-container {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+font-size: 45px;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.messages {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.community {
+  height: 400px;
+  width: 400px;
+}
+
+.growth-container {
+  background-image: url('images/bg-section-top-desktop-1.svg'), url('images/bg-section-top-desktop-2.svg');
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  background-size: 3000px 1000px, 3000px 1500px;
+  margin: 40px 10;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flow-container {
+  margin: 40px 10px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-container {
+  background-image: url('images/bg-section-top-desktop-2.svg'), url('images/bg-section-top-desktop-1.svg');
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  background-size: 3000px 1800px, 3000px 1800px;
+  margin: 40px 10px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 70px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.contact-container {
+  background-image: url('images/bg-footer-top-desktop.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 5000px 3500px;
+  margin: 40px 10px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.logo-contact {
+  color: white;
+  background-color: white;
+}
+
+.sub-button {
+  display: inline-block;
+  background: #ff14c1;
+  border: solid 1px #ff14c1;
+  color: white;
+  padding: 20px 40px;
+  margin: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.sub-button:hover {
+  border-color: #ff14c1;
+  background: #ff14c1;
+  background: linear-gradient(to top, #f3b5e3, #ff14c1);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
+ul {
+  display: flex;
+  text-align: center;
+}
+
+ul li {
+  background: white;
+  list-style: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+ul li a {
+  width: 15px;
+  padding: 35px 0;
+  color: #00252f
+}
